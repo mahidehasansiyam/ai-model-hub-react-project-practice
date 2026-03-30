@@ -11,7 +11,7 @@ const Allcards = ({ data,card,setCard }) => {
         <h1 className='font-bold text-2xl'>Choose your Ai Model</h1>
         <p>One subscribtion give you access to all frontand model</p>
       </div>
-      <div className='grid grid-cols-3 gap-4 justify-center items-center '>
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center '>
         {dataset.map((item, index) => {
           return (
             <div key={index}>

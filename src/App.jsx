@@ -9,7 +9,7 @@ import Selectedcard from './Component/Selectedcard'
 import Tab from './Component/Tab'
 
 const dataset = async () => {
-  let call = await fetch('../public/models.json');
+  let call = await fetch("/models.json");
   return call.json();
 }
 let data = dataset()  
